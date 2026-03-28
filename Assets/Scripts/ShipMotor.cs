@@ -54,7 +54,7 @@ public class ShipMotor : MonoBehaviour
 
     public int getVelocity()
     {
-        return rb.velocity;
+        return rb.velocity.magnitude;
     }
 
     private void FixedUpdate()
